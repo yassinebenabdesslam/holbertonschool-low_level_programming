@@ -1,7 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
 *main -pulp faction
-*
 *Return: 0
 */
 int main(void)
