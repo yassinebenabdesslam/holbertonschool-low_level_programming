@@ -12,10 +12,10 @@ int z;
 long int e;
 long long int r;
 float t;
-printf("%d", sizeof(a));
-printf("%d", sizeof(z));
-printf("%d", sizeof(e));
-printf("%d", sizeof(r));
-printf("%d", sizeof(t));
+printf("Size of a char: %d(s)", sizeof(a));
+printf("Size of an int: %d(s)", sizeof(z));
+printf("Size of a long int: %d(s)", sizeof(e));
+printf("Size of a long long int: %d(s)", sizeof(r));
+printf("Size of a float: %d(s)", sizeof(t));
 return (0);
 }
