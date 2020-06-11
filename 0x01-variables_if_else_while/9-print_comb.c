@@ -7,19 +7,21 @@
  */
 int main(void)
 {
-int i;
+char i;
 
-for (i = 0 ; i <= 9 ; i++)
+for (i = '0' ; i <= '9' ; i++)
 {
-if (i < 9)
+if (i < '9')
 {
-printf("%d, ", i);
+putchar(i);
+putchar(',');
+putchar(' ');
 }
 else
 {
-printf("%d$", i);
+putchar(i);
 }
 }
-printf("\n"); 
+putchar('\n');
 return (0);
 }
