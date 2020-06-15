@@ -1,3 +1,6 @@
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -16,11 +19,11 @@ for (i = '0'; i <= '9' ; i++)
 {
 for (j = '0'; j <= '9' ; j++)
 {
-for (c = ‘0’; c <= '9' ; c++)
+for (c = '0'; c <= '9' ; c++)
 {
-for (k = ‘0’; k <= '9'; k++)
+for (k = '0'; k <= '9'; k++)
 {
-if (i * 10  + j) <= (c * 10 + k)
+if ((i * 10  + j) < (c * 10 + k))
 {
 putchar(i);
 putchar(j);
