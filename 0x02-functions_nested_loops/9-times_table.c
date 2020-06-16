@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "stdio.h"
 
 /**
  * times_table - check the code for Holberton School students.
@@ -33,6 +32,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
